@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>XYZ Co. — Secure, Scalable, Future‑Ready IT Services</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>XYZ Co. | Secure, Scalable, Future‑Ready IT Services</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ========================= -->
-<!--        NAVIGATION         -->
-<!-- ========================= -->
 <header class="navbar">
     <div class="container nav-container">
         <h1 class="logo">XYZ Co.</h1>
         <nav>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="managed-it.html">Managed IT</a></li>
-                <li><a href="cloud.html">Cloud</a></li>
-                <li><a href="cybersecurity.html">Cybersecurity</a></li>
-                <li><a href="infrastructure.html">Infrastructure</a></li>
-                <li><a href="talent.html">Talent</a></li>
+
+                <li class="dropdown">
+                    <a class="dropbtn">Services ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="managed-it.html">Managed IT</a></li>
+                        <li><a href="cloud.html">Cloud & Modern Workplace</a></li>
+                        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                        <li><a href="infrastructure.html">Infrastructure</a></li>
+                        <li><a href="talent.html">Talent Services</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -29,126 +33,67 @@
     </div>
 </header>
 
-<!-- ========================= -->
-<!--        HERO BANNER        -->
-<!-- ========================= -->
+<!-- HERO SECTION -->
 <section class="hero">
-    <div class="hero-content container">
+    <div class="container">
         <h1>Secure, Scalable, Future‑Ready IT Services</h1>
-        <p>Modern IT solutions designed to help your business grow, adapt, and stay protected in a rapidly changing digital world.</p>
-        <a href="contact.html" class="btn-primary">Schedule a Consultation</a>
+        <p>Modern technology solutions that help your business operate with confidence.</p>
+        <a href="contact.html" class="btn-primary">Get Started</a>
     </div>
 </section>
 
-<!-- ========================= -->
-<!--     PARTNER LOGOS         -->
-<!-- ========================= -->
-<section class="partners container">
-    <h2>Trusted Technology Partners</h2>
-    <div class="partner-logos">
-        <img src="images/partner-microsoft.png" alt="Microsoft Partner" />
-        <img src="images/partner-aws.png" alt="AWS Partner" />
-        <img src="images/partner-google.png" alt="Google Cloud Partner" />
-        <img src="images/partner-cisco.png" alt="Cisco Partner" />
-    </div>
-</section>
-
-<!-- ========================= -->
-<!--     SERVICES OVERVIEW     -->
-<!-- ========================= -->
-<section class="services container">
+<!-- SERVICES OVERVIEW -->
+<section class="container section">
     <h2>Our Core Services</h2>
     <div class="service-grid">
-        <div class="service-card">
-            <h3>Managed IT Services</h3>
-            <p>Proactive monitoring, support, and optimization for your entire IT environment.</p>
-            <a href="managed-it.html" class="btn">Learn More</a>
-        </div>
-        <div class="service-card">
-            <h3>Cloud Solutions</h3>
-            <p>Modern cloud adoption, migration, and optimization for long‑term scalability.</p>
-            <a href="cloud.html" class="btn">Learn More</a>
-        </div>
-        <div class="service-card">
+        <a href="managed-it.html" class="service-card">
+            <h3>Managed IT</h3>
+            <p>Proactive support, monitoring, and IT management.</p>
+        </a>
+
+        <a href="cloud.html" class="service-card">
+            <h3>Cloud & Modern Workplace</h3>
+            <p>Azure, Microsoft 365, and modern collaboration solutions.</p>
+        </a>
+
+        <a href="cybersecurity.html" class="service-card">
             <h3>Cybersecurity</h3>
-            <p>Zero Trust security, compliance, and threat protection for your business.</p>
-            <a href="cybersecurity.html" class="btn">Learn More</a>
-        </div>
-        <div class="service-card">
-            <h3>Apps & Infrastructure</h3>
-            <p>Modernization, integration, and infrastructure transformation.</p>
-            <a href="infrastructure.html" class="btn">Learn More</a>
-        </div>
+            <p>Protect your business with modern security frameworks.</p>
+        </a>
+
+        <a href="infrastructure.html" class="service-card">
+            <h3>Infrastructure</h3>
+            <p>Applications, networking, servers, and modernization.</p>
+        </a>
+
+        <a href="talent.html" class="service-card">
+            <h3>Talent Services</h3>
+            <p>Skilled IT professionals for projects and long‑term roles.</p>
+        </a>
     </div>
 </section>
 
-<!-- ========================= -->
-<!--     INDUSTRIES SERVED     -->
-<!-- ========================= -->
-<section class="industries container">
-    <h2>Industries We Serve</h2>
-    <div class="industry-grid">
-        <div>Healthcare</div>
-        <div>Manufacturing</div>
-        <div>Financial Services</div>
-        <div>Professional Services</div>
-        <div>Retail</div>
-        <div>Nonprofit</div>
-    </div>
+<!-- WHY CHOOSE US -->
+<section class="container section">
+    <h2>Why Businesses Choose XYZ Co.</h2>
+    <ul class="feature-list spaced-list">
+        <li>Modern, scalable technology solutions</li>
+        <li>Security‑first approach across all services</li>
+        <li>Deep expertise in cloud, cybersecurity, and infrastructure</li>
+        <li>Flexible engagement models</li>
+        <li>Exceptional client experience and communication</li>
+    </ul>
 </section>
 
-<!-- ========================= -->
-<!--       TESTIMONIALS        -->
-<!-- ========================= -->
-<section class="testimonials container">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonial-grid">
-        <div class="testimonial">
-            <p>"XYZ Co. transformed our entire IT environment. Their roadmap gave us clarity and confidence."</p>
-            <h4>— COO, Manufacturing Firm</h4>
-        </div>
-        <div class="testimonial">
-            <p>"Their cloud migration expertise saved us months of work and reduced our costs immediately."</p>
-            <h4>— CIO, Healthcare Organization</h4>
-        </div>
-        <div class="testimonial">
-            <p>"The team at XYZ Co. is responsive, knowledgeable, and genuinely invested in our success."</p>
-            <h4>— Director of IT, Financial Services</h4>
-        </div>
-    </div>
-</section>
-
-<!-- ========================= -->
-<!--       CASE STUDIES        -->
-<!-- ========================= -->
-<section class="case-studies container">
-    <h2>Success Stories</h2>
-    <div class="case-study">
-        <h3>Cloud Migration for a Regional Healthcare Provider</h3>
-        <p>We migrated 200+ users to Microsoft 365, implemented Zero Trust security, and reduced downtime by 87%.</p>
-        <a href="#" class="btn">Read More</a>
-    </div>
-    <div class="case-study">
-        <h3>Infrastructure Modernization for a Manufacturing Firm</h3>
-        <p>Replaced aging on‑prem systems with a hybrid cloud architecture, improving performance and scalability.</p>
-        <a href="#" class="btn">Read More</a>
-    </div>
-</section>
-
-<!-- ========================= -->
-<!--        STRONG CTA         -->
-<!-- ========================= -->
+<!-- CTA -->
 <section class="cta-strong">
     <div class="container">
         <h2>Let’s Build Your Future‑Ready IT Environment</h2>
-        <p>Whether you're modernizing infrastructure, improving security, or planning a cloud strategy — we can help.</p>
-        <a href="contact.html" class="btn-primary">Schedule a Call</a>
+        <p>Our team is ready to help you modernize, secure, and scale.</p>
+        <a href="contact.html" class="btn-primary">Contact Us</a>
     </div>
 </section>
 
-<!-- ========================= -->
-<!--          FOOTER           -->
-<!-- ========================= -->
 <footer>
     <div class="container footer-content">
         <div>
@@ -157,14 +102,14 @@
         </div>
         <div>
             <h4>Contact</h4>
-            <p>1234 Business Park Drive<br />Atlanta, GA</p>
+            <p>1234 Business Park Drive<br>Atlanta, GA</p>
             <p>(555) 123‑4567</p>
             <p>info@xyzco.com</p>
         </div>
         <div>
             <h4>Quick Links</h4>
-            <a href="services.html">Services</a><br />
-            <a href="about.html">About</a><br />
+            <a href="services.html">Services</a><br>
+            <a href="about.html">About</a><br>
             <a href="contact.html">Contact</a>
         </div>
     </div>
