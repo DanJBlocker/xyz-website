@@ -1,0 +1,15 @@
+<header>
+  <div class="nav-container">
+    <div class="logo">XYZ Co.</div>
+    <nav class="nav-tabs">
+      <a href="index.html">Home</a>
+      <a href="managed-it.html">Managed IT</a>
+      <a href="cloud.html">Cloud</a>
+      <a href="cybersecurity.html">Cybersecurity</a>
+      <a href="infrastructure.html">Apps & Infra</a>
+      <a href="talent.html">Talent</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
