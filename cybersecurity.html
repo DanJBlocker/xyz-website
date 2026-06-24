@@ -1,58 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Cybersecurity Services – XYZ Co.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Services | XYZ Co.</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header>
-  <div class="nav-container">
-    <div class="logo">XYZ Co.</div>
-    <nav class="nav-tabs">
-      <a href="index.html">Home</a>
-      <a href="managed-it.html">Managed IT</a>
-      <a href="cloud.html">Cloud</a>
-      <a href="cybersecurity.html" style="color:#3b82f6;">Cybersecurity</a>
-      <a href="infrastructure.html">Apps & Infra</a>
-      <a href="talent.html">Talent</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </div>
+<header class="navbar">
+    <div class="container nav-container">
+        <h1 class="logo">XYZ Co.</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a class="dropbtn active">Services ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="managed-it.html">Managed IT</a></li>
+                        <li><a href="cloud.html">Cloud & Modern Workplace</a></li>
+                        <li><a href="cybersecurity.html" class="active">Cybersecurity</a></li>
+                        <li><a href="infrastructure.html">Infrastructure</a></li>
+                        <li><a href="talent.html">Talent Services</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
-<section class="light-banner">
-  <h1>Cybersecurity Services</h1>
-  <p>Protect your identity, data, and infrastructure.</p>
+<section class="page-banner">
+    <div class="container">
+        <h1>Cybersecurity Services</h1>
+        <p>Protect your business with modern, layered security solutions.</p>
+    </div>
 </section>
 
-<main>
-
-<section>
-  <h2>Capabilities</h2>
-
-  <p><strong>Security Assessments & Gap Analysis</strong> – [Describe your assessment process]</p>
-  <p><strong>Identity & Access Management</strong> – [Describe IAM/Zero Trust]</p>
-  <p><strong>Network Security</strong> – [Describe firewalls/VPN/segmentation]</p>
-  <p><strong>Endpoint Protection</strong> – [Describe AV/EDR/hardening]</p>
-  <p><strong>Cloud Security</strong> – [Describe securing Azure/M365]</p>
-  <p><strong>Compliance & Governance</strong> – [Describe frameworks you support]</p>
-  <p><strong>Security Awareness Training</strong> – [Describe training approach]</p>
+<section class="container section">
+    <h2>Security Capabilities</h2>
+    <ul class="feature-list">
+        <li>Security assessments & gap analysis</li>
+        <li>Identity & access management</li>
+        <li>Endpoint protection & EDR</li>
+        <li>SIEM & threat detection</li>
+        <li>Incident response & recovery</li>
+        <li>Compliance & governance</li>
+    </ul>
 </section>
 
-<section>
-  <h2>Outcomes</h2>
-  <p>[Add 3–5 bullet points about reduced risk, compliance, trust, etc.]</p>
+<section class="container section">
+    <h2>Our Approach</h2>
+    <p>
+        We take a layered, proactive approach to cybersecurity — combining modern tools, best practices, and real‑world expertise to protect your organization from evolving threats.
+    </p>
 </section>
 
-</main>
+<section class="cta-strong">
+    <div class="container">
+        <h2>Strengthen Your Security Posture</h2>
+        <p>Our cybersecurity experts are ready to help you stay protected.</p>
+        <a href="contact.html" class="btn-primary">Speak With Us</a>
+    </div>
+</section>
 
 <footer>
-  © 2026 XYZ Co. — IT, Cloud, Cybersecurity & Talent Services
+    <div class="container footer-content">
+        <div>
+            <h3>XYZ Co.</h3>
+            <p>Secure, Scalable, Future‑Ready IT Services</p>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <p>1234 Business Park Drive<br>Atlanta, GA</p>
+            <p>(555) 123‑4567</p>
+            <p>info@xyzco.com</p>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <a href="cybersecurity.html">Cybersecurity</a><br>
+            <a href="infrastructure.html">Infrastructure</a><br>
+            <a href="talent.html">Talent Services</a>
+        </div>
+    </div>
 </footer>
 
 </body>

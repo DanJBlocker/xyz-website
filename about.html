@@ -1,69 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>About Us – XYZ Co.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | XYZ Co.</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header>
-  <div class="nav-container">
-    <div class="logo">XYZ Co.</div>
-    <nav class="nav-tabs">
-      <a href="index.html">Home</a>
-      <a href="managed-it.html">Managed IT</a>
-      <a href="cloud.html">Cloud</a>
-      <a href="cybersecurity.html">Cybersecurity</a>
-      <a href="infrastructure.html">Apps & Infra</a>
-      <a href="talent.html">Talent</a>
-      <a href="about.html" style="color:#3b82f6;">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </div>
+<header class="navbar">
+    <div class="container nav-container">
+        <h1 class="logo">XYZ Co.</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a class="dropbtn">Services ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="managed-it.html">Managed IT</a></li>
+                        <li><a href="cloud.html">Cloud & Modern Workplace</a></li>
+                        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                        <li><a href="infrastructure.html">Infrastructure</a></li>
+                        <li><a href="talent.html">Talent Services</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
-<section class="light-banner">
-  <h1>About XYZ Co.</h1>
-  <p>Technology and talent services built for modern, growing organizations.</p>
+<section class="page-banner">
+    <div class="container">
+        <h1>About XYZ Co.</h1>
+        <p>Delivering secure, scalable, and modern IT solutions for today’s businesses.</p>
+    </div>
 </section>
 
-<main>
-
-<section>
-  <h2>Who We Are</h2>
-  <p>
-    XYZ Co. is a modern technology and talent services company focused on helping organizations grow, secure,
-    and transform their digital environments. We combine Managed IT, Cloud & Modern Workplace, Cybersecurity,
-    Apps & Infrastructure, and Talent Management into one unified partnership.
-  </p>
-  <p>[Add your origin story, vision, and mission here]</p>
+<section class="container section">
+    <h2>Who We Are</h2>
+    <p>
+        XYZ Co. is a modern IT services provider focused on helping organizations operate with confidence. 
+        We combine deep technical expertise with a security‑first mindset to deliver solutions that scale.
+    </p>
 </section>
 
-<section>
-  <h2>Our Values</h2>
-  <p><strong>Integrity</strong> – [Explain how you operate with honesty and transparency]</p>
-  <p><strong>Clarity</strong> – [Explain how you simplify complex technology decisions]</p>
-  <p><strong>Excellence</strong> – [Explain your commitment to high‑quality delivery]</p>
-  <p><strong>Innovation</strong> – [Explain how you stay ahead of trends]</p>
-  <p><strong>Partnership</strong> – [Explain how you build long‑term relationships]</p>
+<section class="container section">
+    <h2>Our Mission</h2>
+    <p>
+        To empower businesses with technology that is secure, efficient, and future‑ready — enabling teams to focus on what matters most.
+    </p>
 </section>
 
-<section id="testimonials-about">
-  <h2>Client Voices</h2>
-
-  <div class="testimonial">
-    <p class="quote">“[Insert client quote here]”</p>
-    <p class="client">— [Client Name], [Title], [Company/Industry]</p>
-  </div>
+<section class="container section">
+    <h2>Our Values</h2>
+    <ul class="feature-list">
+        <li>Security‑first approach</li>
+        <li>Client‑focused delivery</li>
+        <li>Modern, scalable solutions</li>
+        <li>Clear communication</li>
+        <li>Long‑term partnerships</li>
+    </ul>
 </section>
 
-</main>
+<section class="cta-strong">
+    <div class="container">
+        <h2>Let’s Work Together</h2>
+        <p>We’re ready to help you modernize, secure, and scale your IT environment.</p>
+        <a href="contact.html" class="btn-primary">Get in Touch</a>
+    </div>
+</section>
 
 <footer>
-  © 2026 XYZ Co. — IT, Cloud, Cybersecurity & Talent Services
+    <div class="container footer-content">
+        <div>
+            <h3>XYZ Co.</h3>
+            <p>Secure, Scalable, Future‑Ready IT Services</p>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <p>1234 Business Park Drive<br>Atlanta, GA</p>
+            <p>(555) 123‑4567</p>
+            <p>info@xyzco.com</p>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <a href="about.html">About</a><br>
+            <a href="contact.html">Contact</a><br>
+            <a href="managed-it.html">Managed IT</a>
+        </div>
+    </div>
 </footer>
 
 </body>

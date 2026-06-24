@@ -1,75 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Contact Us – XYZ Co.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | XYZ Co.</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header>
-  <div class="nav-container">
-    <div class="logo">XYZ Co.</div>
-    <nav class="nav-tabs">
-      <a href="index.html">Home</a>
-      <a href="managed-it.html">Managed IT</a>
-      <a href="cloud.html">Cloud</a>
-      <a href="cybersecurity.html">Cybersecurity</a>
-      <a href="infrastructure.html">Apps & Infra</a>
-      <a href="talent.html">Talent</a>
-      <a href="about.html">About</a>
-      <a href="contact.html" style="color:#3b82f6;">Contact</a>
-    </nav>
-  </div>
+<header class="navbar">
+    <div class="container nav-container">
+        <h1 class="logo">XYZ Co.</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a class="dropbtn">Services ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="managed-it.html">Managed IT</a></li>
+                        <li><a href="cloud.html">Cloud & Modern Workplace</a></li>
+                        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                        <li><a href="infrastructure.html">Infrastructure</a></li>
+                        <li><a href="talent.html">Talent Services</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
-<section class="light-banner">
-  <h1>Contact Us</h1>
-  <p>Start a conversation about your IT, cloud, cybersecurity, or talent needs.</p>
+<section class="page-banner">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>We’re here to help you modernize, secure, and scale your IT environment.</p>
+    </div>
 </section>
 
-<main>
+<section class="container section">
+    <h2>Get in Touch</h2>
+    <p>Fill out the form below or reach us directly using the contact information provided.</p>
 
-<section>
-  <h2>Get in Touch</h2>
+    <form class="contact-form">
+        <label>Name</label>
+        <input type="text" placeholder="Your Name" required />
 
-  <p><strong>Email</strong><br>
-    <a href="mailto:hello@xyzco.com" style="color:#3b82f6;">hello@xyzco.com</a>
-  </p>
+        <label>Email</label>
+        <input type="email" placeholder="you@example.com" required />
 
-  <p><strong>Phone</strong><br>
-    (555) 123‑4567
-  </p>
+        <label>Message</label>
+        <textarea placeholder="How can we help you?" required></textarea>
 
-  <p><strong>Business Hours</strong><br>
-    Monday–Friday: 8:00 AM – 6:00 PM EST<br>
-    After‑hours support available for managed clients.
-  </p>
+        <button type="submit" class="btn-primary">Send Message</button>
+    </form>
 </section>
 
-<section>
-  <h2>Location</h2>
-  <p>
-    XYZ Co.<br>
-    [Street Address]<br>
-    [City, State ZIP]
-  </p>
+<section class="container section">
+    <h2>Our Office</h2>
+    <p>
+        1234 Business Park Drive<br>
+        Atlanta, GA<br>
+        (555) 123‑4567<br>
+        info@xyzco.com
+    </p>
 </section>
-
-<section>
-  <h2>What Happens Next</h2>
-  <p>
-    [Add a short message about your intake process—discovery call, assessment, proposal, etc.]
-  </p>
-  <a class="btn cta" href="mailto:hello@xyzco.com">Start a Conversation</a>
-</section>
-
-</main>
 
 <footer>
-  © 2026 XYZ Co. — IT, Cloud, Cybersecurity & Talent Services
+    <div class="container footer-content">
+        <div>
+            <h3>XYZ Co.</h3>
+            <p>Secure, Scalable, Future‑Ready IT Services</p>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <p>1234 Business Park Drive<br>Atlanta, GA</p>
+            <p>(555) 123‑4567</p>
+            <p>info@xyzco.com</p>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <a href="managed-it.html">Managed IT</a><br>
+            <a href="cloud.html">Cloud</a><br>
+            <a href="cybersecurity.html">Cybersecurity</a>
+        </div>
+    </div>
 </footer>
 
 </body>
